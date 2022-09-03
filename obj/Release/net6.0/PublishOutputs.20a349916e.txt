@@ -1,0 +1,5 @@
+/home/dsreddy/vscode/jenkins/out/calculator
+/home/dsreddy/vscode/jenkins/out/calculator.dll
+/home/dsreddy/vscode/jenkins/out/calculator.deps.json
+/home/dsreddy/vscode/jenkins/out/calculator.runtimeconfig.json
+/home/dsreddy/vscode/jenkins/out/calculator.pdb
