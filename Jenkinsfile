@@ -24,7 +24,7 @@ pipeline {
                 echo 'test - this is hello world'
                 echo "my secret is: ${my_cred}"
                 echo "the new version is: ${new_version}"
-                sh 'dotnet run -c release calculator.csproj'
+                sh 'dotnet run -c release calculator.csproj --no-build'
             }
         }
 
