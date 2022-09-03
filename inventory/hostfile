@@ -1,0 +1,2 @@
+[installationserver]
+web ansible_host=20.235.74.18
