@@ -1,5 +1,9 @@
 pipeline {
     agent any
+
+    environment {
+        new_version = '1.0'
+    }
     stages {
         stage('build') {
             steps {
@@ -10,7 +14,9 @@ pipeline {
         stage('test') {
             steps {
                 echo 'test - this is hello world'
-                echo "the branch name is:BRANCH_NAME"
+                echo 'the branch name is:BRANCH_NAME'
+
+                echo "the new version is: ${new_version}"
             }
         }
     }
