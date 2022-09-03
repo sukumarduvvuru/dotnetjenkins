@@ -1,6 +1,5 @@
 pipeline {
     agent any
-    
     stages {
         stage('build') {
             steps {
@@ -11,6 +10,7 @@ pipeline {
         stage('test') {
             steps {
                 echo 'test - this is hello world'
+                echo "the branch name is: ${BRANCH_NAME}"
             }
         }
     }
