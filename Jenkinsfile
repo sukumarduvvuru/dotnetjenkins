@@ -24,13 +24,13 @@ pipeline {
                 echo 'test - this is hello world'
                 echo "my secret is: ${my_cred}"
                 echo "the new version is: ${new_version}"
-                sh 'dotnet run -c release calculator.csproj --no-build'
+                sh 'dotnet run -c release calculator.csproj'
             }
         }
 
         stage('deploy') {
             steps {
-                sh 'dotnet publish -c release -o out'
+                sh 'dotnet publish -c release calculator.csproj -o out'
             }
         }
     }
