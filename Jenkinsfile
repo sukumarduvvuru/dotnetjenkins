@@ -14,7 +14,7 @@ pipeline {
         stage('test') {
             steps {
                 echo 'test - this is hello world'
-                echo 'the branch name is:BRANCH_NAME'
+                echo "the branch name is:$BRANCH_NAME"
 
                 echo "the new version is: ${new_version}"
             }
