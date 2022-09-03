@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "QlYmRY+7xp/ze6w6ZgR/VAtO2Va1x+BOMrEPP9f94rTEhwmrWOaEdeYLAOOYe7UB5XuWQyKFVE++O2l0C6VgNQ==",
+  "success": true,
+  "projectFilePath": "/home/dsreddy/vscode/jenkins/calculator.csproj",
+  "expectedPackageFiles": [
+    "/home/dsreddy/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.8/microsoft.aspnetcore.app.ref.6.0.8.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,15 @@
+/home/dsreddy/vscode/jenkins/bin/release/net6.0/calculator
+/home/dsreddy/vscode/jenkins/bin/release/net6.0/calculator.deps.json
+/home/dsreddy/vscode/jenkins/bin/release/net6.0/calculator.runtimeconfig.json
+/home/dsreddy/vscode/jenkins/bin/release/net6.0/calculator.dll
+/home/dsreddy/vscode/jenkins/bin/release/net6.0/ref/calculator.dll
+/home/dsreddy/vscode/jenkins/bin/release/net6.0/calculator.pdb
+/home/dsreddy/vscode/jenkins/obj/release/net6.0/calculator.csproj.AssemblyReference.cache
+/home/dsreddy/vscode/jenkins/obj/release/net6.0/calculator.GeneratedMSBuildEditorConfig.editorconfig
+/home/dsreddy/vscode/jenkins/obj/release/net6.0/calculator.AssemblyInfoInputs.cache
+/home/dsreddy/vscode/jenkins/obj/release/net6.0/calculator.AssemblyInfo.cs
+/home/dsreddy/vscode/jenkins/obj/release/net6.0/calculator.csproj.CoreCompileInputs.cache
+/home/dsreddy/vscode/jenkins/obj/release/net6.0/calculator.dll
+/home/dsreddy/vscode/jenkins/obj/release/net6.0/ref/calculator.dll
+/home/dsreddy/vscode/jenkins/obj/release/net6.0/calculator.pdb
+/home/dsreddy/vscode/jenkins/obj/release/net6.0/calculator.genruntimeconfig.cache
