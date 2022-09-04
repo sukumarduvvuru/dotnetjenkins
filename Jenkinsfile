@@ -13,5 +13,10 @@ pipeline {
                ansible-galaxy --version '''
             }
         }
+        stage('ansible playbook run') {
+            steps {
+                sh 'ansible-playbook playbooks/installpkg.yml'
+            }
+        }
     }
 }
