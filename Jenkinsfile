@@ -1,6 +1,10 @@
 pipeline {
     agent { label 'linux' }
 
+    environment {
+        myprivatekey = credentials('ansible_ssh_private_key')
+    }
+
     stages {
         stage('ansible version check') {
             steps {
@@ -11,11 +15,9 @@ pipeline {
         }
 
         stage('ansible playbook run') {
-            steps{
-                sh 'ansible-playbook playbooks/installpkg.yml'
-
+            steps {
+                sh "ansible-playbook --private-key=$myprivatekey playbooks/installpkg.yml"
             }
-
         }
     }
 }
