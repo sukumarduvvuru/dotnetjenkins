@@ -1,0 +1,22 @@
+#installpkg.yml
+
+#use this yml file to install apache2 - sudo apt install apache2
+
+---
+  - hosts: all
+    become: true
+    tasks:
+      - name: "Install apache on the server"
+        apt:
+          name: 
+            - apache2
+            - git
+          state: latest
+
+      - name: "check git version"
+        command: "git --version"
+        register: git_version
+
+      - name: debug the information
+        debug:
+          msg: "{{ git_version.stdout }}"
